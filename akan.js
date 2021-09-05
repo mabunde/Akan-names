@@ -17,7 +17,7 @@ function validation() {
     else if ((month <= 0) || (month > 12)) {
         alert('Please enter valid months!')
     }
-    else if ((year <= 1800) || (year > 2099)) {
+    else if ((year <= 1900) || (year > 3000)) {
         alert("Check the century entered.")
     }
     else if(gender === null){
