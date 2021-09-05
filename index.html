@@ -12,11 +12,38 @@
 
 <body>
     <div class="container">
-        <h1>Akan names generator</h1>
+        <div class="jumbotron">
+            <h1>Akan names generator</h1>
+        </div>
         <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and
             then depending on their gender outputs their Akan Name. The Akan people of Ghana frequently name their
             children after the day of the week they were born and the order in which they were born. These "day names"
             have further meanings concerning the soul and character of the person. </p>
+
+        <div class="form">
+            <h3>Enter your details below!!</h3>
+            <form action="">
+                <div class="fom">
+                    <label for="date">Date Of Birth: </label>
+                    <input type="number" class="input" placeholder="Date of Birth" id="day" min="1" max="31">
+                </div>
+
+                <div class="fom">
+                    <label for="month">Month:</label>
+                    <input type="number" class="input" placeholder="month" id="month" min="0" max="12">
+                </div>
+                <div class="fom">
+                    <label for="year">Year:</label>
+                    <input type="number" class="input" placeholder="year" min="1901" id="year">
+                </div>
+                <select name="Gender" id="gender" class="form-control">
+                    <label for="gender">Gender</label>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </form>
+        </div>
+
     </div>
 
 
