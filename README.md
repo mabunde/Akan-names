@@ -26,7 +26,7 @@ Incase you run into a problem, kindly contact me on solomonsitati39@gmail.com an
 ## Live Site
 Go to <a src="https://mabunde.github.io/Akan-names/">[live]</a>
 
-Licence
+## License
 This project is under the MIT license:
 
 Copyright (c) 2021 Sitati Solomon
