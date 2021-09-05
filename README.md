@@ -24,7 +24,7 @@ No noticable bugs identified.
 Incase you run into a problem, kindly contact me on solomonsitati39@gmail.com and also feel free to contribute to my code.
 
 ## Live Site
-Go to [live]
+Go to <a src="https://mabunde.github.io/Akan-names/">[live]</a>
 
 Licence
 This project is under the MIT license:
