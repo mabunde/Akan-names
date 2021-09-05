@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 .container {
     background-color: grey;
 }
@@ -9,10 +11,6 @@ h1 {
 
 p {
     text-align: center;
-}
-
-* {
-    font-family: sans-serif;
 }
 
 h3 {
@@ -32,4 +30,9 @@ form {
     margin-bottom: 30px;
     border-radius: 2px;
     border: 0px solid;
+}
+
+input[type=button] {
+    margin-top: 20px;
+    font-weight: 700;
 }
