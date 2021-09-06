@@ -3,6 +3,11 @@
 .container {
     background-color: grey;
     border-radius: 10px;
+    background-image: url('https://th.bing.com/th/id/OIP.gXXzAq4BBlcRfqxyOBmkBgHaE8?w=290&h=194&c=7&r=0&o=5&pid=1.7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: cover;
 }
 
 .jumbotron {
@@ -22,8 +27,14 @@ h3 {
     text-align: center;
 }
 
-form {
+.form {
     margin: 20px auto;
+    width: 80%;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 10px;
+
 }
 
 .input {
@@ -37,16 +48,8 @@ form {
     border: 0px solid;
 }
 
-input[type=button] {
-    margin-top: 20px;
-    font-weight: 700;
-}
 
 label {
     font-size: large;
 
-}
-
-.btn btn-primary {
-    border-radius: 10px;
 }
