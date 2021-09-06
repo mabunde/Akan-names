@@ -12,23 +12,23 @@ function validation() {
     var d = date.getDay();
 
     if((day <= 0) || (day > 31)) {
-        alert('Please enter valid dates!')
+        alert('Invalid! Please enter valid dates!')
     }
     else if ((month <= 0) || (month > 12)) {
-        alert('Please enter valid months!')
+        alert('Invalid! Please enter valid months!')
     }
     else if ((year <= 1900) || (year > 3000)) {
-        alert("Check the century entered.")
+        alert("Invalid! Check the century entered.")
     }
     else if(gender === null){
         alert("Please choose your gender")
     }
 
     if(gender === "Female"){
-        alert("Your Akan name is: " + femaleNames[d] + " and you were born on " + dayOfTheWeek[d])
+        alert("Your Akan name is: " + femaleNames[d] + " born on " + dayOfTheWeek[d])
     }
     else if (gender === "Male"){
-        alert("Your Akan name is: " + maleNames[d] + " and you were born on " + dayOfTheWeek[d])
+        alert("Your Akan name is: " + maleNames[d] + " born on " + dayOfTheWeek[d])
     }
 
 
