@@ -1,17 +1,17 @@
 # Akan Name
 ## Author
-By Solomon Sitati
+By Solomon Sitati.
 
 ## Description
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
 ## Setup/Installation Requirements
-To acces this website, You need to clone it using these steps
+To acces this website, You need to clone it using these steps.
 
-* Open your terminal on your Ubuntu or mac or commandprompt on windows
-* Change the current working directory to the location where you want to clone the directory
+* Open your terminal on your Ubuntu or mac or commandprompt on windows.
+* Change the current working directory to the location where you want to clone the directory.
 * type $ git clone https://github.com/mabunde/Akan-names.git
-* The command will clone the repository into your location folder you have selected
+* The command will clone the repository into your location folder you have selected.
 ## Known Bugs
 No noticable bugs identified.
 
