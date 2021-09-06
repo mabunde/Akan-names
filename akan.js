@@ -12,16 +12,16 @@ function validation() {
     var d = date.getDay();
 
     if((day <= 0) || (day > 31)) {
-        alert('Invalid! Please enter valid dates!')
+        alert('Invalid! Please enter valid Date of Birth!')
     }
     else if ((month <= 0) || (month > 12)) {
         alert('Invalid! Please enter valid months!')
     }
-    else if ((year <= 1900) || (year > 3000)) {
+    else if ((year <= 1899) || (year > 3000)) {
         alert("Invalid! Check the century entered.")
     }
     else if(gender === null){
-        alert("Please choose your gender")
+        alert("Invalid! Please choose your gender")
     }
 
     if(gender === "Female"){
