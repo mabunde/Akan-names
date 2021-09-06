@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/index.css" type="text/css">
 </head>
@@ -16,19 +17,17 @@
             <h1>Akan names generator</h1>
             <p>This is a web application that takes a user's birthday and calculates the day of the week they were born
                 and
-                then depending on their gender outputs their Akan Name. The Akan people of Ghana frequently name their
-                children after the day of the week they were born and the order in which they were born. These day
-                names
-                have further meanings concerning the soul and character of the person. </p>
+                then depending on their gender outputs their Akan Name. </p>
 
         </div>
 
         <div class="form">
-            <h3>Enter your details below!!</h3>
-            <form action="">
+            <div class="container-1">
+
+                <h3>Enter your details below!</h3>
                 <div class="fom">
                     <label for="date">Date Of Birth: </label>
-                    <input type="number" class="input" placeholder="Date of Birth" id="date" min="1" max="31">
+                    <input type="number" class="input" placeholder="Date of Birth" id="day" min="1" max="31">
                 </div>
 
                 <div class="fom">
@@ -39,17 +38,28 @@
                     <label for="year">Year:</label>
                     <input type="number" class="input" placeholder="year" min="1901" id="year">
                 </div>
-                <select name="Gender" id="gender" class="form-control">
-                    <label for="gender">Gender</label>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                </select>
-            </form>
-            <input type="button" value="submit" class="btn btn-primary" onclick="validation()">
+                <div class="button1">
+
+                    <label>Gender</label>
+                    <input type="radio" name="gender" id="gender" value="male" checked /> Male
+                    <input type="radio" name="gender" id="gender" value="female" /> Female
+
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Submit" class="btn-1 bg-primary" onclick="validation()">
+                </div>
+                <div id="outcome">
+                    <p class="text-primary" id="results"></p>
+                </div>
+
+
+            </div>
+
         </div>
 
     </div>
-    <script src="akan.js"></script>
+    <script src="javascript/akan.js"></script>
 
 
 </body>
